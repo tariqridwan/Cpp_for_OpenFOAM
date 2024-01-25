@@ -24,7 +24,7 @@ int main()
     cin >> mu;
     cout << "What is the characteristic length? (m)" << endl;
     cin >> D;
-    cout << "So the Reynolds number is:\n" << endl;
+    cout << "So the Reynolds number is:" << endl;
     cout << (rho*U*D)/mu << endl;
     return 0;
 }
