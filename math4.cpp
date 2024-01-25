@@ -1,4 +1,6 @@
-// Writing my first C++ script using math
+/* calculate the Reynolds number
+written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
+Universitat Politècnica de Catalunya, Barcelona */
 
 #include<iostream>
 #include<string>
@@ -11,8 +13,8 @@ int main()
     float c;
     string write_something,again_write,man_write_again;
     write_something = "Calculating Reynolds number\n";
-    again_write = "by the way do you know why Mati loco is always angry¿¿\n";
-    man_write_again = "Yes I think coz he has childhood trauma..\n";
+    again_write = "by the way do you know why loko is always angry¿¿\n";
+    man_write_again = "Yes coz he is a loko\n";
     cout << write_something;
     cout << again_write;
     cout << man_write_again;

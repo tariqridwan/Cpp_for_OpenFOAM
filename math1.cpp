@@ -1,7 +1,8 @@
-// Writing my first C++ script using math
+/* Writing my first C++ script using math
+written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
+Universitat Politècnica de Catalunya, Barcelona */
 
 #include<iostream>
-#include<string>
 using namespace std;
 
 int main()
