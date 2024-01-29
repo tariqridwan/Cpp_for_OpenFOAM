@@ -1,10 +1,10 @@
-/* calculate the Reynolds number
+/* calculating the Reynolds number
 written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
 Universitat Politècnica de Catalunya, Barcelona */
 
 #include<iostream>
 #include<string>
-#include<cmath>
+// #include<cmath>
 using namespace std;
 
 int main()
