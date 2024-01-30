@@ -1,4 +1,4 @@
-/* calculating the Reynolds number using function
+/* calculating the Reynolds number using a "double" function
 written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
 Universitat Politècnica de Catalunya, Barcelona */
 
