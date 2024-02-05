@@ -1,4 +1,4 @@
-/* Trying namespace, by commenting using namespace library and using it manually in every line with "std::"
+/* Trying namespace, by commenting namespace library and using namespace manually in every line with "std::"
 written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
 Universitat Politècnica de Catalunya, Barcelona */
 
