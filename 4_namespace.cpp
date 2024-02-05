@@ -28,6 +28,7 @@ int main()
     std::cout << "What is the characteristic length (m)?" << std::endl;
     std::cin >> D;
 
+    // calculate
     std::cout << "So the Reynolds number is:" << std::endl;
     Re = Reynolds(rho,U,mu,D);
     std::cout << Re << std::endl;
