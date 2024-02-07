@@ -1,4 +1,4 @@
-/* Trying namespace, by commenting namespace library and using namespace manually in every line with "std::"
+/* Slowly getting into Vectors & arrays in C++ . . . starting with vector calculations . . .
 written by Tariq Ridwan: 👉 https://tariqridwan.github.io/
 Universitat Politècnica de Catalunya, Barcelona */
 
