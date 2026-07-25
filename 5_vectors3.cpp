@@ -41,9 +41,9 @@ int main()
     return 0;
 }
 
-double vector_length(double x, double y, double z)
+double vector_length(double x_1, double y_1, double z_1)
 {
     double result; // int or double
-    result = sqrt( pow(x,2.0) + pow(y,2.0) + pow(z,2.0));
+    result = sqrt( pow(x_1,2.0) + pow(y_1,2.0) + pow(z_1,2.0));
     return result;
 }

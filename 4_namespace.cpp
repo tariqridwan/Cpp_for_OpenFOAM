@@ -35,9 +35,9 @@ int main()
     return 0;
 }
 
-double Reynolds(double rho, double U, double mu, double D)
+double Reynolds(double rho_1, double U_1, double mu_1, double D_1)
 {
     int result; // int or double
-    result = rho*U*D/mu;
+    result = rho_1*U_1*D_1/mu_1;
     return result;
 }

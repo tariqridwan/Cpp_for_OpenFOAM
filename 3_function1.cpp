@@ -33,7 +33,7 @@ int main()
     return 0;
 }
 
-void Reynolds(double rho, double U, double mu, double D)
+void Reynolds(double rho_1, double U_1, double mu_1, double D_1)
 {
-    cout << rho*U*D/mu << endl;
+    cout << rho_1*U_1*D_1/mu_1 << endl;
 }
