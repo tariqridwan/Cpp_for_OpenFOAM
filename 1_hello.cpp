@@ -7,6 +7,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    cout << "Hello World!\n"; // using "cout" only is enough due to the 2nd line, its essentially telling the compiler: "When I refer to something without specifying its namespace, also look inside std."
     return 0;
 }
