@@ -24,5 +24,8 @@ int main()
     std::cin >> c;
     std::cout << "So the summation is: \n";
     std::cout << a+b+c << std::endl;
+    std::cout << "Sum = " << a+b+c << std::endl;
+    std::cout << "Average = " << (a+b+c)/3 << std::endl;
+    std::cout << "Product = " << a*b*c << std::endl;
     return 0;
 }
