@@ -21,7 +21,8 @@ int main()
     cout << whassup;
     cout << "Now let's write something:\n";
     string tatti;
-    cin >> tatti;
+    // cin >> tatti; // reads a value up to the next whitespace (space, tab, newline, etc.).
+    getline(cin, tatti); // so that it can read the entire line of input, including spaces, until the user presses Enter.
     cout << "the user input of tatti = " << tatti << endl;
     cout << "Trying to revise the basic code again\n";
     cout << "Now let's do some Math.......\n";
