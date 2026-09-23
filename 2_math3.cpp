@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     double m,v;
-    float c;
+    // float c; // variable c is not used in this program
     string write_something,again_write,man_write_again;
     write_something = "Calculating kinetic energy\n";
     again_write = "by the way do you know why loko is always angry¿¿\n";
@@ -23,11 +23,13 @@ int main()
     cout << "What is the velocity" << endl;
     cin >> v;
     cout << "So the kinetic energy is:" << endl;
-    cout << (1.0/2.0)*m*pow(v,2) << " m²/s²" << endl;
-    cout << "One way of writing square root of 2" << endl;
+    cout << (1.0/2.0)*m*pow(v,2) << " J." << endl;
+    double KE = (1.0/2.0)*m*pow(v,2);
+    cout << "The kinetic energy is: " << KE << " J.\n" << endl;
+    cout << "One way of writing square root of 2 is 'sqrt(2.0)' which gives us:" << endl;
     cout << sqrt(2.0) << endl;
-    cout << "Another way of writing square root of 2" << endl;
+    cout << "Another way of writing square root of 2 is 'pow(2.0,0.5)' which gives us:" << endl;
     cout << pow(2.0,0.5) << endl;
-    cout << "Do you see sqrt and pow? cmath library was added to use such math operations";
+    cout << "Do you see sqrt and pow? cmath library was added to use such math operations\n";
     return 0;
 }
