@@ -5,35 +5,38 @@ Universitat Politècnica de Catalunya, Barcelona */
 #include<iostream>
 #include<string>
 // #include<cmath>
-using namespace std;
+// using namespace std;
 
-void Reynolds(double rho, double U, double mu, double D);
+void Reynolds(double rho_1, double U_1, double mu_1, double D_1);
 
 int main()
 {
-    double U, rho, mu, D;
-    string write_intro;
+    double rho, U, mu, D;
+    std::string write_intro;
     write_intro = "Calculating Reynolds number\n";
-    cout << write_intro;
+    std::cout << write_intro;
 
-    cout << "What is the velocity in (m/s)?" << endl;
-    cin >> U;
+    std::cout << "What is the velocity in (m/s)?" << std::endl;
+    std::cin >> U;
 
-    cout << "What is density in (kg/m3)?\n";
-    cin >> rho;
+    std::cout << "What is density in (kg/m³)?\n";
+    std::cin >> rho;
 
-    cout << "What is the dynamic viscosity?" << endl;
-    cin >> mu;
+    std::cout << "What is the dynamic viscosity?" << std::endl;
+    std::cin >> mu;
 
-    cout << "What is the characteristic length (m)?" << endl;
-    cin >> D;
+    std::cout << "What is the characteristic length (m)?" << std::endl;
+    std::cin >> D;
 
-    cout << "So the Reynolds number is:" << endl;
-    Reynolds(rho,U,mu,D);
+    // double Re = (rho*U*D)/mu;
+    // std::cout << "The Reynolds number is: " << Re << std::endl; // calculating directly like this is not a good practice, instead we can use a function to calculate it as shown below. This is a better practice in programming to use functions for calculations.
+
+    std::cout << "So the Reynolds number is:" << std::endl;
+    Reynolds(rho,U,mu,D); // calling the function for calculation instead of calculating directly like: double Re = (rho*U*D)/mu; (as shown above) which is not a good practice.
     return 0;
 }
 
-void Reynolds(double rho_1, double U_1, double mu_1, double D_1)
+void Reynolds(double density, double velocity, double viscosity, double characteristic_length)
 {
-    cout << rho_1*U_1*D_1/mu_1 << endl;
+    std::cout << density*velocity*characteristic_length/viscosity << std::endl;
 }
