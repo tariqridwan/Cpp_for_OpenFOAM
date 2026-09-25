@@ -7,13 +7,12 @@ Universitat Politècnica de Catalunya, Barcelona */
 // #include<cmath>
 // using namespace std;
 
-void Reynolds(double rho_1, double U_1, double mu_1, double D_1);
+void Reynolds(double density, double velocity, double viscosity, double characteristic_length); // Prototype: Returns void instead of double
 
 int main()
 {
     double rho, U, mu, D;
-    std::string write_intro;
-    write_intro = "Calculating Reynolds number\n";
+    std::string write_intro = "Calculating Reynolds number\n";
     std::cout << write_intro;
 
     std::cout << "What is the velocity in (m/s)?" << std::endl;
@@ -33,6 +32,7 @@ int main()
 
     std::cout << "So the Reynolds number is:" << std::endl;
     Reynolds(rho,U,mu,D); // calling the function for calculation instead of calculating directly like: double Re = (rho*U*D)/mu; (as shown above) which is not a good practice.
+    
     return 0;
 }
 
